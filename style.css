@@ -215,44 +215,105 @@ body{
 
 
 
-
-
-/* responsive for tablet  */
-@media only screen and (max-width:770px) {
-    #nav-container{
-        padding: 10px;
-    }
-
-    /* card  */
-    #theGrid{
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-       
-    }
-    #ecomtxt{
-        font-size: 31px;
-    }
-}
- 
-
-/* responsive for mobile  */
-@media only screen and (max-width:460px) {
-    #theNav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    /* hero responsive stt  */
-    .hero-text{
-        font-size: 55px;
-    }
-    /* hero end  */
-/* card stt  */
-#ecomtxt{
-    font-size: 30px;
+/* check our work start  */
+#cowContainer{
+    background-image: url("./img/Untitled@3-1536x735\ 1.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
 }
 
+#cowText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 1400px;
+    margin: 120px auto;
 }
+
+.whiteCircle{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cowIMGS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* cow section end  */
+
+
+
+/* review section stt  */
+#reviewCARD{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    height: 83px;
+    max-width: 480px;
+    background-color: white;
+    justify-content: center;
+    border: none;
+    border-radius: 33px;
+    padding: 8px;
+}
+#review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* review end  */
+
+/* our price stt */
+#pricingContainer{
+    max-width: 1400px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Grid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 44px;
+    gap: 13px;
+    color: gray;
+    font-size: 12px;
+}
+#LS{
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+#MeetingBTN{
+    width: 100%;
+    background-color: #4E47FF;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+}
+#priceDollar{
+    width: 100%;
+    background-color: #F5F8FF;
+    border: none;
+    padding: 15px;
+}
+#pricingRight{
+    background-color: white;
+    padding: 25px;
+    border: none;
+    border-radius: 7px;
+}
+/* price end  */
+
+
+
