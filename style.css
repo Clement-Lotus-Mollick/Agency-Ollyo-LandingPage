@@ -1,0 +1,258 @@
+/* google font releway  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #F5F8FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-hro-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.fasteruitext{
+    font-size: 25px;
+    font: bold;
+}
+#nav-name{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    /* width: 33.33% ; */
+}
+
+
+
+
+#menues{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+}
+#menues h1:hover{
+    color: blueviolet;
+    /* text-decoration: underline; */
+}
+.menu_name{
+    color: #8987A1;
+}
+#home{
+    color: black;
+}
+#menu-container{
+    /* width: 33.33%; */
+    background-color: #FFFFFF;
+    /* border: 1px solid gray; */
+    border-radius: 30px;
+}
+
+#theNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnone{
+    background-color: white;
+    color: #8987A1;
+    font: bold;
+    border: none;
+    border-radius: 9px;
+    padding: 3px;
+}
+.btntwo{
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font: bold;
+    border: none;
+    margin-left: 5px;
+}
+
+#theHeader{
+    background-color: #F5F8FF;
+     padding-top: 5px;
+     min-height: 110vh;
+     background-image: url("./img/Mask\ group.png");
+     background-repeat: no-repeat;
+     /* background-position: center; */
+     background-position-x: center;
+}
+/* nav css end here  */
+
+
+/* hero css start  */
+#hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    min-height: 90vh;
+    text-align: center;
+}
+.hero-text{
+    font-size: 65px;
+}
+.hero-btn{
+    background-color: black;
+    padding: 14px 21px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* hero end  */
+
+
+/* what we do css stt  */
+.wwd{
+    font-size: 44px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#whatWEdo{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+#theGrid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 15px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    line-height: 20px;
+}
+.five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.six{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#pwid{
+    width: 231px;
+}
+.same h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.four{
+    grid-column: 4/span 2;
+    grid-row: 1/span 2;
+    /* border: 2px solid red; */
+}
+#fourimg{
+    width: 100%;
+    height: 100%;
+}
+
+.five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/span 2;
+}
+#bgblue{
+    background-image: url("img/Rectangle\ 43.png");
+    padding: 20px;
+}
+/* card end  */
+
+
+
+
+
+
+
+/* responsive for tablet  */
+@media only screen and (max-width:770px) {
+    #nav-container{
+        padding: 10px;
+    }
+
+    /* card  */
+    #theGrid{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+       
+    }
+    #ecomtxt{
+        font-size: 31px;
+    }
+}
+ 
+
+/* responsive for mobile  */
+@media only screen and (max-width:460px) {
+    #theNav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* hero responsive stt  */
+    .hero-text{
+        font-size: 55px;
+    }
+    /* hero end  */
+/* card stt  */
+#ecomtxt{
+    font-size: 30px;
+}
+
+}
